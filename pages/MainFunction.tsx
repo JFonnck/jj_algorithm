@@ -12,7 +12,7 @@ interface Dato {
     valueBuzamiento: string,
 }
 
-export const MainFunction: FC<Props> = (props: Props) => {
+const MainFunction: FC<Props> = (props: Props) => {
 
 
     const [mainInput, setMainInput] = useState('');
@@ -369,3 +369,5 @@ export const MainFunction: FC<Props> = (props: Props) => {
         </>
     )
 }
+
+export default MainFunction;
